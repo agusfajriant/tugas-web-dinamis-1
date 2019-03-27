@@ -1,0 +1,92 @@
+<?php
+ //no 1
+$aaaa = array(
+ 
+'paket data 1' => array('Nama data' => array('smartfreen'), 'kuota' => array('unlimited')),
+ 
+'paket data 2' => array('Nama data' => array('telkomsel'), 'kuota' => array('10 GB')),
+ 
+'paket data 3' =>array('Nama data' => array('xl combo'), 'kuota' => array('6 GB'))
+ 
+);
+
+//menampilkan perulangan array multidimensi
+foreach($aaaa as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>	';
+}
+ECHO '-------------------------------------------------------------------------';
+ echo '<br/>';
+ 
+//no 2
+$bbbb = array(
+ 
+'Bank' => array('Nama peminjam' => array('Mohamad sukiman'), 'Alamat' => array('kulonprogo DIY')),
+ 
+'Bank' => array('Nama peminjam' => array('wajiran'), 'Alamat' => array('sleman DIY')),
+ 
+'Bank' =>array('Nama peminjam' => array('basirun'), 'Alamat' => array('bantul DIY'))
+ 
+);
+
+//menampilkan perulangan array multidimensi
+foreach($bbbb as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+
+ECHO '-------------------------------------------------------------------------';
+ echo '<br/>';
+
+// no 3
+
+$cccc = array(
+ 
+'IKAN' => array('Nama IKAN' => array('KECEBONG'), 'BERASAL DARI' => array('AIR PAYAU')),
+ 
+'IKAN' => array('Nama IKAN' => array('PAUS'), 'BERASAL DARI' => array('AIR TAWAR')),
+ 
+'IKAN' =>array('Nama IKAN' => array('LELE'), 'BERASAL DARI' => array('AIR LAUT'))
+ 
+);
+
+//menampilkan perulangan array multidimensi
+foreach($cccc as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+
+
+
+ECHO '-------------------------------------------------------------------------';
+ echo '<br/>';
+// no 4
+
+$dddd = array(
+ 
+'BURUNG' => array('Nama burung' => array('KAKAK TUA'), 'makanan' => array('KARNIVORAORA')),
+ 
+'BURUNG' => array('Nama burung' => array('KAKAK MUDA'), 'makanan' => array('KARNIVORA')),
+ 
+'BURUNG' =>array('Nama burung' => array('DARA'), 'makanan ' => array('HERBIVORA'))
+ 
+);
+
+//menampilkan perulangan array multidimensi
+foreach($dddd as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+?>
